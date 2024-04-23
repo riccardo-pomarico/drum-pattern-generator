@@ -1,0 +1,718 @@
+.rectangle {
+    width: 99%;
+    height: 99%;
+    min-width: 1000px;
+    min-height: 700px;
+    border-radius: 1%;
+    border: 3px solid black;
+    background-size: 100% 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #DCDCDC;
+}
+
+.blur {
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    min-height: 700px;
+    border-radius: 1%;
+    backdrop-filter: blur(1px);
+}
+
+::-webkit-scrollbar {
+    height: 50%;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #88888820;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #55555530;
+}
+
+.scrollerGS {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 6%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerC {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 9%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerK {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 12%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerS {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 15%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerH {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 18%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerGS2 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 30%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerC2 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 33%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerK2 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 36%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerS2 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 39%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerH2 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 42%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerGS3 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 54%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerC3 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 57%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerK3 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 60%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerS3 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 63%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerH3 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 66%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerGS4 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 78%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerC4 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 81%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerK4 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 84%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerH4 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 90%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.scrollerS4 {
+    border:2px lightgrey;
+
+    left: 12%;
+    top: 87%;
+    position: absolute;
+
+    width: 100%;
+    height: 3%;
+
+    overflow: auto;
+}
+
+.search-table{
+    table-layout: fixed;
+}
+
+.search-table, td, th{
+    /* Box system's borders */
+    border-collapse:collapse;
+    border:1px solid #777;
+
+    /* Box system's dimensions */
+    width: 20px;
+}
+
+th {
+    padding: 2px 2px;
+    font-size:12px;
+}
+
+td {
+    padding: 2px 2px;
+    text-align: center;
+}
+
+th, td {
+    min-width: 60px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border-radius: 5%;
+    border: 3px solid black;
+    background-color: whitesmoke;
+    cursor: pointer;
+    position: absolute;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.BPM {
+    top: 16%;
+    left: 67%;
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+}
+
+.Complexity {
+    top: 21%;
+    left: 67%;
+    position: absolute;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: customFonts;
+    src: url("LiquidCrystal-Normal.otf");
+}
+
+.TSTitle {
+    top: 17%;
+    left: 50%;
+    position: absolute;
+}
+
+.TimeSignatureNum {
+    top: 21%;
+    left: 50%;
+    position: absolute;
+    border-radius: 5%;
+    display: inline-block;
+    z-index: 2;
+}
+
+.TimeSignatureDen {
+    top: 26%;
+    left: 50%;
+    position: absolute;
+    border-radius: 5%;
+    display: inline-block;
+    z-index: 2;
+}
+
+.rotate1 {
+    display: inline-block;
+    white-space: nowrap;
+    transform: translate(0, 100%) rotate(-90deg);
+    transform-origin: 0 0;
+    vertical-align: bottom;
+    position: absolute;
+    top: 8%;
+    left: 3%;
+}
+
+.rotate1:before {
+    content: "";
+    float: left;
+    margin-top: 100%;
+}
+
+.rotate1:after {
+    content: "";
+    display: inline-block;
+}
+
+.rotate2 {
+    display: inline-block;
+    white-space: nowrap;
+    transform: translate(0, 100%) rotate(-90deg);
+    transform-origin: 0 0;
+    vertical-align: bottom;
+    position: absolute;
+    top: 32%;
+    left: 3%;
+}
+
+.rotate2:before {
+    content: "";
+    float: left;
+    margin-top: 100%;
+}
+
+.rotate2:after {
+    content: "";
+    display: inline-block;
+}
+
+.rotate3 {
+    display: inline-block;
+    white-space: nowrap;
+    transform: translate(0, 100%) rotate(-90deg);
+    transform-origin: 0 0;
+    vertical-align: bottom;
+    position: absolute;
+    top: 55%;
+    left: 3%;
+}
+
+.rotate3:before {
+    content: "";
+    float: left;
+    margin-top: 100%;
+}
+
+.rotate3:after {
+    content: "";
+    display: inline-block;
+}
+
+.rotate4 {
+    display: inline-block;
+    white-space: nowrap;
+    transform: translate(0, 100%) rotate(-90deg);
+    transform-origin: 0 0;
+    vertical-align: bottom;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+}
+
+.rotate4:before {
+    content: "";
+    float: left;
+    margin-top: 100%;
+}
+
+.rotate4:after {
+    content: "";
+    display: inline-block;
+}
+
+#box-system {
+    border-radius: 1%;
+    position: absolute;
+    width: 40%;
+    height: 95%;
+    left: 0;
+    top: 0;
+}
+
+#measureOne {
+    left: 7%;
+    top: 12%;
+    position: absolute;
+}
+
+#measureTwo {
+    left: 7%;
+    top: 37%;
+    position: absolute;
+}
+
+#measureThree {
+    left: 7%;
+    top: 60%;
+    position: absolute;
+}
+
+#measureFour {
+    left: 7%;
+    top: 85%;
+    position: absolute;
+}
+
+#titleSub {
+    top: 3%;
+    left: 4%;
+    position: absolute;
+}
+
+#start {
+    position: absolute;
+    right: 5%;
+    top: 16%;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#refresh {
+    position: absolute;
+    right: 5%;
+    top: 23%;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 0;
+    background-color: #64A9B3;
+}
+
+#title {
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.green {
+    background-color: #6FC6D3;
+    animation-name: startBeat;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes startBeat {
+    0%   {background-color: #67C49F;}
+    50%   {background-color: #34A77A;}
+    100%   {background-color: #67C49F;}
+}
+
+.redOn {
+    background-color: red;
+    animation-name: none;
+}
+
+.STitle {
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%, 50%);
+    color: white;
+    position: absolute;
+}
+
+.slider {
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: white;
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    z-index: 1;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.drumkit {
+    border: 5px solid black;
+    border-radius: 7%;
+    position: absolute;
+    /*max-width: 1280px;*/
+    /*max-height: 853px;*/
+    width: 640px;
+    height: 426px;
+    bottom: 5%;
+    right: 7%;
+    z-index: 1;
+    background-image: url("images/drumperspective.jpg");
+    background-size: contain;
+    -moz-box-shadow:  0 0 10px 3px #64A1AE;
+    -webkit-box-shadow: 0 0 10px 3px #64A1AE;
+    -o-box-shadow:  0 0 10px 3px #64A1AE;
+}
+
+#drumblur {
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+    backdrop-filter: blur(1px);
+}
+
+.drum {
+    position: absolute;
+    margin: 5px;
+    cursor: pointer;
+    opacity: 0.3;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#kick {
+    top: 30%;
+    left: 38%;
+    width: 140px;
+    height: 100px;
+    cursor: url(images/immagine_2023-02-04_111524358.png), pointer;
+}
+
+#cymbal {
+    right: 2.5%;
+    top: 27.5%;
+    width: 210px;
+    height: 166px;
+    rotate: 14deg;
+    cursor: url(images/immagine_2023-02-04_111501041.png), pointer;
+}
+
+.snare {
+    left: 28%;
+    top: 47%;
+    width: 109px;
+    height: 101px;
+    cursor: url(images/immagine_2023-02-04_111501041.png), pointer;
+}
+
+#ghostsnare {
+    opacity: 0;
+}
+
+#hat {
+    left: 8.5%;
+    top: 50%;
+    width: 131px;
+    height: 105px;
+    rotate: -28deg;
+    cursor: url(images/immagine_2023-02-04_111501041.png), pointer;
+}
+
+.snaretype {
+    position: absolute;
+    left: 40%;
+    top: 73%;
+}
+
+.kicktype {
+    position: absolute;
+    color: whitesmoke;
+    top: 56%;
+    left: 55%;
+}
+
+.opentype {
+    position: absolute;
+    color: whitesmoke;
+    right: 5%;
+    top: 70%;
+}
+
+.hattype {
+    position: absolute;
+    color: whitesmoke;
+    left: 23%;
+    top: 78%;
+}
+
+@keyframes drum-animation {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 0.75;
+        border: 2px solid black;
+    }
+
+}
+
+@keyframes drum-animation-ghostsnare {
+    from {
+        opacity: 0;
+
+    }
+    to {
+        opacity: 0.75;
+        border: 2px solid black;
+    }
+
+}
+
+@keyframes disappear {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 0;
+    }
+}

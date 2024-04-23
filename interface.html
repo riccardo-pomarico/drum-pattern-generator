@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel = "stylesheet" href = "interface.css">
+    <meta charset="UTF-8">
+    <title>DRUM PATTERN GENERATOR</title>
+    <!--
+    AUTHORS:
+    Brusca Alfredo
+    Marazzi Alice
+    Pomarico Riccardo
+     -->
+</head>
+
+<body>
+
+<div class = "rectangle">
+
+    <div class = "blur"> </div>
+
+    <div id="box-system">
+
+        <div id="box-wallpaper">
+
+            <div class="rotate1" style="font-family: customFonts"> 1st measure </div>
+            <div class="rotate2" style="font-family: customFonts"> 2nd measure </div>
+            <div class="rotate3" style="font-family: customFonts"> 3rd measure </div>
+            <div class="rotate4" style="font-family: customFonts"> 4th measure </div>
+
+            <div id="titleSub" style="font-family: customFonts"> subdivision </div>
+            <div id="measureOne" style="font-family: customFonts"> </div>
+            <div id="measureTwo" style="font-family: customFonts"> </div>
+            <div id="measureThree" style="font-family: customFonts"> </div>
+            <div id="measureFour" style="font-family: customFonts"> </div>
+
+            <body>
+
+            <div class="scrollerGS">
+                <table id = "tableGS" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">G</th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="scrollerC">
+                <table id = "tableC" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">C</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerK">
+                <table id = "tableK" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">K</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerS">
+                <table id = "tableS" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">S</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerH">
+                <table id = "tableH" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">H</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="scrollerGS2">
+                <table id = "tableGS2" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">G</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerC2">
+                <table id = "tableC2" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">C</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerK2">
+                <table id = "tableK2" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">K</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerS2">
+                <table id = "tableS2" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">S</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerH2">
+                <table id = "tableH2" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">H</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="scrollerGS3">
+                <table id = "tableGS3" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">G</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerC3">
+                <table id = "tableC3" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">C</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerK3">
+                <table id = "tableK3" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">K</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerS3">
+                <table id = "tableS3" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">S</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerH3">
+                <table id = "tableH3" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">H</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="scrollerGS4">
+                <table id = "tableGS4" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">G</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerC4">
+                <table id = "tableC4" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">C</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerK4">
+                <table id = "tableK4" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">K</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerS4">
+                <table id = "tableS4" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">S</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="scrollerH4">
+                <table id = "tableH4" class="search-table inner">
+                    <thead>
+                    <tr>
+                        <th style="font-family: customFonts">H</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            </body>
+
+        </div>
+
+    </div>
+
+    <h1 id = "title" style="font-family: customFonts"> DRUM PATTERN GENERATOR </h1>
+
+    <button id = "start" class = "green" onclick="play()">
+        <p class = "STitle" id="StartStop">START</p>
+    </button>
+
+    <button id = "refresh" onclick="location.reload()">RESET</button>
+
+    <div class = "BPM">
+        <label for="bpmvalue" style="font-family: customFonts">
+            <span class="bolded">CHOOSE A BPM:</span>
+        </label>
+        <textarea id="bpmvalue" name="freeform" rows="1" cols="3" style="font-family: customFonts; resize: None" value="100" oninput="changeBPM()">100</textarea>
+    </div>
+
+    <div class = "Complexity" style="font-family: customFonts">
+        <span class="bolded">COMPLEXITY:</span>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="4" value="1" class="slider" id="complex" onchange="changeComplexity()">
+            <datalist id="cmarks">
+                <option value="1" label="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </datalist>
+        </div>
+        <label>1<span class="tab">2</span><span class="tab">3</span><span class="tab">4</span></label>
+    </div>
+
+    <div class = "TSTitle" style="font-family: customFonts">
+        <span class="bolded">TIME SIGNATURE</span>
+    </div>
+
+    <div class = "TimeSignatureNum">
+        <label for="timesignum" style="font-family: customFonts">
+            <span class="bolded">CHOOSE A NUMERATOR:</span>
+        </label>
+        <textarea id="timesignum" name="freeform" rows="1" cols="3" style="font-family: customFonts; resize: None" value="4" oninput="createTimeSignatureNum()">4</textarea>
+    </div>
+
+    <div class = "TimeSignatureDen">
+        <label for="timesigden" style="font-family: customFonts">
+            <span class="bolded">CHOOSE A DENOMINATOR:</span>
+        </label>
+        <select name="denominator" id="timesigden" onchange="createTimeSignatureDen()">
+            <option value="2">2</option>
+            <option value="4" selected>4</option>
+            <option value="8">8</option>
+            <option value="16">16</option>
+        </select>
+    </div>
+
+</div>
+
+<script src="index.js"></script>
+
+</script>
+
+    <div id="drumkit" class="drumkit">
+        <div id="drumblur"></div>
+        <div class = "kicktype">
+            <select name="kt" id="kick_type" onchange="createKickType()">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+        <div class = "opentype">
+            <select name="ct" id="open_type" onchange="createOpenType()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div class = "hattype">
+            <select name="ht" id="hat_type" onchange="createHatType()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13" selected>13</option>
+            </select>
+        </div>
+        <div class = "snaretype">
+            <select name="st" id="snare_type" onchange="createSnareType()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23" selected>23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+            </select>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js">
+    </script>
+</body>
+</html>
